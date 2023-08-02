@@ -1,2 +1,7 @@
 Employee FirstName and LastName,Project Name and Number,Date,Start Time,End Time,Hours Worked
-BB BB,AA 123,2023-08-10,11:50:13,13:50:15,2.0
+John Smith,Project A 1,2023-07-14,07:28:24,09:28:25,2.0
+Alice Johnson,Project B 2,2023-07-15,11:30:37,13:30:37,2.0
+Bob Brown,Project C 3,2023-07-16,15:00:41,17:30:41,2.0
+David Williams,Project A 1,2023-07-19,10:00,13:00,3.0
+Bob Brown,Project B 2,2023-08-02,09:30:50,11:30:51,2.0
+John Smith,Project A 1,2023-08-01,18:31,19:31:01,1.0
