@@ -1,5 +1,6 @@
-.idea/
-.mvn/
+.idea/*
+.mvn/*
+.target/*
 
 target/
 !.mvn/wrapper/maven-wrapper.jar
