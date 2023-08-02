@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane xmlns="http://javafx.com/javafx"
+            xmlns:fx="http://javafx.com/fxml"
+            fx:controller="com.example.trackinghours.controller.EditProjectPopupController"
+            prefHeight="400.0" prefWidth="600.0">
+    <HBox layoutX="14" layoutY="14" spacing="10" />
+    <Button layoutX="31.0" layoutY="105.0" onAction="#handleSaveButton">Save</Button>
+    <Button layoutX="129.0" layoutY="105.0" onAction="#handleCancelButton">Cancel</Button>
+    <TextField fx:id="nameField" layoutX="31.0" layoutY="31.0" promptText="Name" />
+    <TextField fx:id="numberField" layoutX="31.0" layoutY="68.0" promptText="Number" />
+</AnchorPane>

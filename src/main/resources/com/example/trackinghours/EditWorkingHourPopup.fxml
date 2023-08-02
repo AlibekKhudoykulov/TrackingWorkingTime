@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane xmlns="http://javafx.com/javafx"
+            xmlns:fx="http://javafx.com/fxml"
+            fx:controller="com.example.trackinghours.controller.EditWorkingHourPopupController"
+            prefHeight="400.0" prefWidth="600.0">
+
+    <children>
+        <!-- Project Dropdown -->
+        <Label layoutX="50" layoutY="50" text="Project:" />
+        <ComboBox layoutX="150" layoutY="50" fx:id="projectComboBox" />
+
+        <!-- Employee Dropdown -->
+        <Label layoutX="50" layoutY="100" text="Employee:" />
+        <ComboBox layoutX="150" layoutY="100" fx:id="employeeComboBox" />
+
+        <!-- Date Picker -->
+        <Label layoutX="50" layoutY="150" text="Date:" />
+        <DatePicker layoutX="150" layoutY="150" fx:id="datePicker" />
+
+<!--         Start Time-->
+        <Label layoutX="50" layoutY="200" text="Start Time:" />
+        <TextField fx:id="startTimeField" layoutX="150" layoutY="200" />
+
+        <!-- End Time -->
+        <Label layoutX="50" layoutY="250" text="End Time:" />
+        <TextField fx:id="endTimeField" layoutX="150" layoutY="250" />
+
+        <!-- Save and Cancel Buttons -->
+        <Button layoutX="150" layoutY="300" text="Save" onAction="#handleSaveButton" />
+        <Button layoutX="250" layoutY="300" text="Cancel" onAction="#handleCancelButton" />
+    </children>
+
+</AnchorPane>
