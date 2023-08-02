@@ -327,7 +327,8 @@ public class AppController {
     public void showAddEmployeePopup() {
         try {
             // Load the FXML file for the pop-up window
-            FXMLLoader loader = new FXMLLoader(getClass().getResource("AddEmployeePopup.fxml"));
+            FXMLLoader loader = new FXMLLoader();
+            loader.setLocation(getClass().getResource("/com/example/trackinghours/AddEmployeePopup.fxml"));
             Parent root = loader.load();
 
             // Create a new stage for the pop-up window
@@ -350,7 +351,8 @@ public class AppController {
     }
     private void showEditWorkingHourPopup(WorkingTimeRecord WorkingTimeRecord) {
         try {
-            FXMLLoader loader = new FXMLLoader(getClass().getResource("EditWorkingHourPopup.fxml"));
+            FXMLLoader loader = new FXMLLoader();
+            loader.setLocation(getClass().getResource("/com/example/trackinghours/EditWorkingHourPopup.fxml"));
             Parent root = loader.load();
 
             EditWorkingHourPopupController controller = loader.getController();
@@ -371,7 +373,8 @@ public class AppController {
     }
     private void showEditEmployeePopup(Employee employee) {
         try {
-            FXMLLoader loader = new FXMLLoader(getClass().getResource("EditEmployeePopup.fxml"));
+            FXMLLoader loader = new FXMLLoader();
+            loader.setLocation(getClass().getResource("/com/example/trackinghours/EditEmployeePopup.fxml"));
             Parent root = loader.load();
 
             EditEmployeePopupController controller = loader.getController();
@@ -397,7 +400,8 @@ public class AppController {
     public void showAddProjectPopup() {
         try {
             // Load the FXML file for the pop-up window
-            FXMLLoader loader = new FXMLLoader(getClass().getResource("AddProjectPopup.fxml"));
+            FXMLLoader loader = new FXMLLoader();
+            loader.setLocation(getClass().getResource("/com/example/trackinghours/AddProjectPopup.fxml"));
             Parent root = loader.load();
 
             // Create a new stage for the pop-up window
@@ -420,7 +424,8 @@ public class AppController {
     }
     private void showEditProjectPopup(Project project) {
         try {
-            FXMLLoader loader = new FXMLLoader(getClass().getResource("EditProjectPopup.fxml"));
+            FXMLLoader loader = new FXMLLoader();
+            loader.setLocation(getClass().getResource("/com/example/trackinghours/EditProjectPopup.fxml"));
             Parent root = loader.load();
 
             EditProjectPopupController controller = loader.getController();
